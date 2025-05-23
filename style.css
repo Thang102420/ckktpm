@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 360px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus {
+    background-color: #333;
+    border: 1px solid #00bcd4;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00bcd4;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0097a7;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.forgot a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
